@@ -1,0 +1,45 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
+  text-align: center;
+  font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 50px;
+}
+form {
+  padding: 20px;
+}
+.container {
+  display: block;
+  margin: 100px auto;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.search {
+  padding: 13px;
+  border-radius: 20px;
+  width: 320px;
+}
+.submit {
+  font-size: 20px;
+  border-radius: 10px;
+}
+.poem {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 25px;
+}

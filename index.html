@@ -5,56 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Generator</title>
     <link rel="stylesheet" href="Source/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>AI Generating Poems</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter a country you want your poem to come from"
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The Trick to Holding On
-        <p>
-          Let go of the ones who hurt you Let go of the ones you outgrow Let go
-          of the words they hurl your way as you’re walking out the door The
-          only thing cut and dry In this hedge-maze life Is the fact that their
-          words will cut but your tears will dry
-        </p>
-        <p>
-          They don’t tell you this when you are young You can’t hold on to
-          everything Can’t show up for everyone You pick your poison Or your
-          cure Phone numbers you know by heart And the ones you don’t answer any
-          more
-        </p>
-        Hold on to the faint recognition in the eye of a stranger As it catches
-        you in its lustrous net How quickly we become intertwined How wonderful
-        it is to forget All the times your intuition failed you But it hasn’t
-        killed you yet Hold on to childlike whims and moonlight swims and your
-        blazing self-respect
-        <p>
-          And if you drive the roads of this town Ones you’ve gone down so many
-          times before Flashback to all the times Life nearly ran you off the
-          road But tonight your hand is steady Suddenly you’ll know The trick to
-          holding on Was all that letting go
-        </p>
-        <p>Taylor Swift</p>
-      </div>
-    </main>
-    <footer>
-      This AI project has been coded by Sarah Ward and open sourced on
-      <a href="https://github.com/Sarahwcode/AI-Generator" target="_blank"
-        >Github</a
-      >
-      and host on
-      <a href="https://zippy-gumdrop-936317.netlify.app/">Netlify</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Generating Poems</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter a country you want your poem to come from...."
+            required
+            autofocus
+            class="search"
+          />
+          <input type="submit" class="submit" />
+        </form>
+        <div class="poem">
+          The Trick to Holding On
+          <p>
+            Let go of the ones who hurt you Let go of the ones you outgrow Let
+            go of the words they hurl your way as you’re walking out the door
+            The only thing cut and dry In this hedge-maze life Is the fact that
+            their words will cut but your tears will dry
+          </p>
+          <p>
+            They don’t tell you this when you are young You can’t hold on to
+            everything Can’t show up for everyone You pick your poison Or your
+            cure Phone numbers you know by heart And the ones you don’t answer
+            any more
+          </p>
+          Hold on to the faint recognition in the eye of a stranger As it
+          catches you in its lustrous net How quickly we become intertwined How
+          wonderful it is to forget All the times your intuition failed you But
+          it hasn’t killed you yet Hold on to childlike whims and moonlight
+          swims and your blazing self-respect
+          <p>
+            And if you drive the roads of this town Ones you’ve gone down so
+            many times before Flashback to all the times Life nearly ran you off
+            the road But tonight your hand is steady Suddenly you’ll know The
+            trick to holding on Was all that letting go
+          </p>
+          <p>Taylor Swift</p>
+        </div>
+      </main>
+      <footer>
+        This AI project has been coded by Sarah Ward and open sourced on
+        <a href="https://github.com/Sarahwcode/AI-Generator" target="_blank"
+          >Github</a
+        >
+        and host on
+        <a href="https://zippy-gumdrop-936317.netlify.app/">Netlify</a>
+      </footer>
+    </div>
     <script src="Source/index.js"></script>
   </body>
 </html>
