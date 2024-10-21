@@ -35,8 +35,9 @@ form {
 }
 .poem {
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid rgb(221, 172, 172);
   border-radius: 20px;
+  font-size: 30px;
 }
 .blink {
   animation: blink-animation 1s steps(5, start) infinite;
@@ -59,4 +60,10 @@ footer {
 .example {
   font-size: 15px;
   opacity: 0.6;
+}
+.form {
+  padding: 20px;
+  border: 1px solid rgb(221, 172, 172);
+  border-radius: 20px;
+  font-size: 30px;
 }
